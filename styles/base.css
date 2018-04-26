@@ -1,0 +1,139 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color:black;
+  font-size:3em;
+}
+
+.clear {
+  clear:both;
+}
+h3 {
+  font-size:1em;
+  padding:.25rem 0;
+}
+p {
+  font-size:1rem;
+}
+
+main {
+  width:80%;
+  margin:0 auto;
+}
+
+header a.right, aside section a  {
+  font-size: .5em;
+  float:right;
+  color:red;
+}
+
+header h1 {
+  color:white;
+  font-size:2rem;
+  font-family: 'Roboto', sans-serif;  
+  font-weight:lighter;
+  margin:0 auto 0 4%;
+}
+
+header h6 {
+  color:darkgray;
+  font-size:1rem;
+  margin:0 auto 2.5% 4%;
+}
+
+nav {
+  background-color:gray;
+  height:1.5em;
+  text-align:center;
+  margin:0 auto;
+}
+
+nav a:link, nav a:active, nav a:hover, nav a:visited {
+  font-size: .5em;
+  width:auto;    
+  display:inline-flex;
+  flex: row;
+  padding:.25% 5%;
+  color:purple;
+}
+
+.container {
+  background-color:white;
+  margin-top:0;
+  padding:3% 0 5%;
+}
+
+.main {
+  margin: auto 7% 1% 4%;
+  float:left;
+}
+
+article .main {
+  width:55%;
+  flex-flow: column;
+  order: 1;
+}
+.testimonials p {
+  font-style:italic;
+  margin-bottom:4%;
+}
+
+
+aside {
+  width:30%;
+  display:flex;
+  flex-flow:column;
+  order: 2;
+  border:1px solid grey;
+  
+  margin-top:4%
+}
+aside section {
+  width:90%;
+  margin:0 auto 1.5% auto;
+  
+}
+aside section h4, aside section h5 {
+  text-align:center;
+}
+
+aside section h4 {
+  font-size:.8em;
+}
+aside section h5 {
+  font-size:.6em;
+  margin-bottom:1%;
+}
+aside img {
+  width:80%;
+  margin-left: 10%;
+}
+aside section a {
+  text-align:right;
+  font-size:1rem;
+}
+
+footer {
+  width:80%;
+  margin:2% auto;
+  color:white;
+  font-size:.75rem;
+}
+footer section {
+  width:100%;
+  margin-left:4%;
+}
+footer section:nth-of-type(2) {
+  text-align:center;
+  font-size:.75rem;
+  margin:0;
+}
+footer a {
+  font-size: .75em;
+  color:red;
+}
